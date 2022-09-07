@@ -1,0 +1,94 @@
+body {
+    background-color: floralwhite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+
+h1{margin:50px;}
+
+table {
+     font-family: Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+     text-align:left;
+}
+
+table td, th {
+    border:1px solid black;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: ghostwhite;
+}
+
+table tr:nth-child(odd){
+    background-color: gainsboro;
+}
+
+.header th {
+    background-color: paleturquoise;
+}
+
+.form-div{
+    margin-top:30px;
+}
+
+.add-div{
+    margin-top:40px;
+}
+
+
+.btn {
+    width:100px;
+    height:30px;
+    border-radius:15px;
+    background-color: bisque;
+    font-weight: bold;
+    font-size:15px;
+    cursor:pointer;
+}
+
+form {
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: 35px 35px 35px;
+    gap:25px;
+    
+}
+label {
+    font-size:20px;
+}
+
+.submit-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-column:1/5;
+}
+
+.red {
+
+    width:100%;
+    height:30px;
+    border-radius:15px;
+    background-color: pink;
+    font-weight: bold;
+    font-size:15px;
+    color:black;
+    cursor:pointer;
+}
+
+
+.blue {
+
+    width:40px;
+    height:30px;
+    border-radius:15px;
+    font-weight: bold;
+    font-size:20px;
+    color:blue;
+    cursor:pointer;
+
+}
+

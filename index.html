@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src='script.js' defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <h1>Book List</h1>
+    <table>
+        <tbody>
+        <tr class="header">
+            <th>Author</th>
+            <th>Title</th>
+            <th>Pages</th>
+            <th>Read</th>
+            <th>Edit</th>
+        </tr>
+        </tbody>
+    </table>
+    <div class="form-div" hidden>
+        <form onSubmit="return false;">
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+            <label for="pages">Number of Pages:</label>
+            <input type="number" id="pages" name="pages">
+            <label for="read">Read or Not:</label>
+            <input type="checkbox" id="read" name="read">
+            <div class="submit-div">
+              <input id='add' class="btn" type="submit" value="Add">
+            </div>
+        </form>
+    </div>
+    <div class="add-div">
+       <button id="newbook" class="btn">New Book</button>
+    </div>
+</body>
+</html>
